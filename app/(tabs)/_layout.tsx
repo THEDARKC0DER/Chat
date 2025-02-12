@@ -5,7 +5,7 @@ import { Text, View } from "react-native";
 export default function TabsLayout() {
   const router = useRouter();
   const navigationState = useRootNavigationState();
-  const [user, setUser] = useState<any>(true);
+  const [user, setUser] = useState<any>(false);
 
   useEffect(() => {
     if (navigationState?.key && !user) {
