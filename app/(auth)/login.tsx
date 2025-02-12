@@ -1,11 +1,11 @@
 import { Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
-export default function Home() {
+export default function LoginScreen() {
   return (
-    <SafeAreaView style={{ flex: 1 }}>
+    <SafeAreaView>
       <View>
-        <Text>Home</Text>
+        <Text>Login Page</Text>
       </View>
     </SafeAreaView>
   );
