@@ -20,7 +20,11 @@ export default function LoginScreen() {
           secureTextEntry
         />
         <Button title="Login" />
-        <Button title="Sign Up" onPress={()=> router.push("/(auth)/signUp")}/>
+        {/* <Button
+          title="Phone Number"
+          onPress={() => router.push("/(auth)/phone-input")}
+        /> */}
+        <Button title="Sign Up" onPress={() => router.push("/(auth)/signUp")} />
       </View>
     </SafeAreaView>
   );
