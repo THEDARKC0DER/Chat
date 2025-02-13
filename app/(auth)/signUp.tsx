@@ -1,17 +1,20 @@
-import { useRouter } from "expo-router";
 import { useState } from "react";
 import { Button, Text, TextInput, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
-export default function LoginScreen() {
+export default function SignUp() {
   const [email, setEmail] = useState<string | undefined>();
   const [password, setPassword] = useState<string | undefined>();
 
-  const router = useRouter();
-
   return (
-    <SafeAreaView className="flex-auto items-center justify-center">
-      <View>
+    <SafeAreaView style={{ flex: 1 }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: "center",
+          alignItems: "center",
+        }}
+      >
         <TextInput placeholder="email" value={email} onChangeText={setEmail} />
         <TextInput
           placeholder="password"
@@ -19,8 +22,7 @@ export default function LoginScreen() {
           onChangeText={setPassword}
           secureTextEntry
         />
-        <Button title="Login" />
-        <Button title="Sign Up" onPress={()=> router.push("/(auth)/signUp")}/>
+        <Button title="SignUp" />
       </View>
     </SafeAreaView>
   );
