@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "110144095902",
+    "project_id": "chatapp-69db9",
+    "storage_bucket": "chatapp-69db9.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:110144095902:android:8b830bd821682ff4ed9d8f",
+        "android_client_info": {
+          "package_name": "com.agrawal.chat"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTy_8_UyFvFDFJW4fbxAfoNN_fKTEDtQg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
